@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  * Description: prints Programming is positive, zero, or negative
  * Return: Always 0 (Success)
  */
