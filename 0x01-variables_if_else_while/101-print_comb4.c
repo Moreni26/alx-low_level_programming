@@ -1,26 +1,31 @@
 #include <stdio.h>
 /**
- * main - prints if the number is positive, zero, or negative
+ * main - Entry point
  * Description: this program prints combinations of three digits
  * Return: Always 0 (sucess)
  */
 int main(void)
 {
-	int i, o;
+	int n, m, l;
 
-	for (i = 0; i < 100; i++)
+	for (n = 48; n < 58; n++)
 	{
-		for (o = i + 1; o < 100; o++)
+		for (m = 49; m < 58; m++)
 		{
-			putchar((i / 10) + '0');
-			putchar((i % 10) + '0');
-			putchar(' ');
-			putchar((o / 10) + '0');
-			putchar((o % 10) + '0');
-			if (i == 98 && o == 99)
-				continue;
-			putchar(',');
-			putchar(' ');
+			for (l = 50; l < 58; l++)
+			{
+				if (l > m && m > n)
+				{
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
 		}
 	}
 	putchar('\n');
