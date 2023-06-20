@@ -1,20 +1,21 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: A program that print putchar on a new line
- * Return Always 0 (Success)
+ *
+ * Description: This is the main function of the program.
+ * It prints the characters 'putchar' on a separate lines.
+ * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-	int _putchar
-		_putchar('_')
-		_putchar('p')
-		_putchar('u')
-		_putchar('t')
-		_putchar('c')
-		_putchar('h')
-		_putchar('a')
-		_putchar('r')
-		_putchar('\n')
-		return(0)
+		_putchar('_');
+		_putchar('p');
+		_putchar('u');
+		_putchar('t');
+		_putchar('c');
+		_putchar('h');
+		_putchar('a');
+		_putchar('r');
+		_putchar('\n');
+		return (0);
 }
