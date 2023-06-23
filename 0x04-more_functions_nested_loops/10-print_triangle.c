@@ -6,15 +6,15 @@
  */
 void print_triangle(int size)
 {
-	if (i <= 0)
+	int i, j;
+
+	if (size <= 0)
 	{
 		putchar('\n');
 	}
 	else
 	{
-		int i, j;
-
-		for (i = 1; i < size; i++)
+		for (i = 1; i <= size; i++)
 		{
 			for (j = i; j < size; j++)
 			{
