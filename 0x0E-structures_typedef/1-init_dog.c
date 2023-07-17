@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "dog.h"
 /**
  * init_dog - A function that initialize a variable
@@ -7,7 +8,6 @@
  * @owner: paramater that points to char owner's dog
  * Return: None
  */
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d)
